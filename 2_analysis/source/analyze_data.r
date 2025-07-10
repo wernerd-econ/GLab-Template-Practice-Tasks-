@@ -5,6 +5,7 @@
 library(tidyverse)
 library(stargazer)
 library(ggplot2)
+library(lfe)
 
 # Paths
 input_dir <- "../../1_data/output"
@@ -20,16 +21,18 @@ main <- function() {
 }
 
 regression_table <- function(data) {
-  reg_cty <- lm(displ ~ cty, data = data)
-  summary(reg_cty)
+  reg_cty <- felm(displ ~ cty | 0 | 0 | year, data = data)
+  cty_se <- summary(reg_cty)$coefficients[, "Cluster s.e."]
 
-  reg_hwy <- lm(displ ~ hwy, data = data)
-  summary(reg_hwy)
+  reg_hwy <- felm(displ ~ hwy | 0 | 0 | year, data = data)
+  hwy_se <- summary(reg_hwy)$coefficients[, "Cluster s.e."]
 
-  reg_hwy_cty <- lm(displ ~ hwy + cty, data = data)
-  summary(reg_hwy_cty)
+  reg_hwy_cty <- felm(displ ~ hwy + cty | 0 | 0 | year, data = data)
+  hwy_cty_se <- summary(reg_hwy_cty)$coefficients[, "Cluster s.e."]
 
-  stargazer(reg_cty, reg_hwy, reg_hwy_cty, title = "Results", align = TRUE,
+  stargazer(reg_cty, reg_hwy, reg_hwy_cty, 
+            se = list(cty_se, hwy_se, hwy_cty_se),
+            title = "Results (Clustered SE)", align = TRUE,
             dep.var.labels = c("Engine displacement (L)"),
             covariate.labels = c("City fuel economy (mpg)",
                                  "Highway fuel economy (mpg)"),
