@@ -1,6 +1,6 @@
 
-Script my_project_slides.tex in latexmk -pdf -bibtex started at 2025-07-10 13:30:37
-Script my_project_slides.tex finished successfully at 2025-07-10 13:30:39
+Script my_project_slides.tex in latexmk -pdf -bibtex started at 2025-07-10 17:09:02
+Script my_project_slides.tex finished successfully at 2025-07-10 17:09:04
 Output: Rc files read:
   NONE
 Latexmk: This is Latexmk, John Collins, 27 Dec. 2024. Version 4.86a.
@@ -257,7 +257,7 @@ s/tikzlibrarytopaths.code.tex))))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\' on input line 35.
+(hyperref)                removing `\\' on input line 35.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
 (./my_project_slides.aux)
@@ -294,6 +294,8 @@ ocal/texlive/2025/texmf-dist/fonts/enc/dvips/inter/a_djwlf6.enc}]
 [7]
 [8]
 [9 <../input/figure_city.jpg>] (../input/table_reg.tex)
+Overfull \vbox (20.26556pt too high) detected at line 86
+
 [10]
 [11]
 [12] (./my_project_slides.aux)
@@ -302,14 +304,16 @@ Package rerunfilecheck Warning: File `my_project_slides.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
- )</usr/local/texlive/2025/texmf-dist/fonts/type1/public/inter/Inter-Bold.pfb><
-/usr/local/texlive/2025/texmf-dist/fonts/type1/public/inter/Inter-Italic.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/inter/Inter-Regular.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on my_project_slides.pdf (12 pages, 579894 bytes).
+ )
+(see the transcript file for additional information)</usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/inter/Inter-Bold.pfb></usr/local/texlive/2025/texmf
+-dist/fonts/type1/public/inter/Inter-Italic.pfb></usr/local/texlive/2025/texmf-
+dist/fonts/type1/public/inter/Inter-Regular.pfb></usr/local/texlive/2025/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on my_project_slides.pdf (12 pages, 580094 bytes).
 Transcript written on my_project_slides.log.
 Latexmk: Getting log file 'my_project_slides.log'
 Latexmk: Examining 'my_project_slides.fls'
@@ -571,7 +575,7 @@ s/tikzlibrarytopaths.code.tex))))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\' on input line 35.
+(hyperref)                removing `\\' on input line 35.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
 (./my_project_slides.aux)
@@ -608,17 +612,20 @@ ocal/texlive/2025/texmf-dist/fonts/enc/dvips/inter/a_djwlf6.enc}]
 [7]
 [8]
 [9 <../input/figure_city.jpg>] (../input/table_reg.tex)
+Overfull \vbox (20.26556pt too high) detected at line 86
+
 [10]
 [11]
-[12] (./my_project_slides.aux) )</usr/local/texlive/2025/texmf-dist/fonts/type1
-/public/inter/Inter-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pu
-blic/inter/Inter-Italic.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub
-lic/inter/Inter-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy7.pfb>
-Output written on my_project_slides.pdf (12 pages, 580354 bytes).
+[12] (./my_project_slides.aux) )
+(see the transcript file for additional information)</usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/inter/Inter-Bold.pfb></usr/local/texlive/2025/texmf
+-dist/fonts/type1/public/inter/Inter-Italic.pfb></usr/local/texlive/2025/texmf-
+dist/fonts/type1/public/inter/Inter-Regular.pfb></usr/local/texlive/2025/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on my_project_slides.pdf (12 pages, 580556 bytes).
 Transcript written on my_project_slides.log.
 Latexmk: Getting log file 'my_project_slides.log'
 Latexmk: Examining 'my_project_slides.fls'
@@ -629,4 +636,4 @@ Latexmk: All targets (my_project_slides.pdf) are up-to-date
 The following files were created in my_project_slides.tex:
 my_project_slides.pdf 
 
-make.sh finished at 2025-07-10 13:30:39
+make.sh finished at 2025-07-10 17:09:04
