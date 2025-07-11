@@ -8,6 +8,8 @@
 
 \usepackage[T1]{fontenc}
 \usepackage[latin9]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsthm}
 \usepackage{amssymb}
 \PassOptionsToPackage{no-math}{fontspec}
 \usepackage{graphicx} 
@@ -15,6 +17,7 @@
 \usepackage{multirow} 
 \usepackage{xspace}
 \usepackage{booktabs}
+\usepackage{dcolumn}
 
 \setbeamercolor{normal text}{fg=mDarkTeal,bg=white}
 \definecolor{cardinalred}{rgb}{0.549, 0.082, 0.082}
@@ -65,11 +68,23 @@
 
 \section{Results}
 
-\begin{frame}{xxx}
+\begin{frame}{City Fuel Economy Plot In Logs}
 
-    xxx
+	\begin{figure}[!htp]
+    	\centering
+   	 	\caption{\bf{City Fuel Economy Plot In Logs}}
+   		\includegraphics[scale=0.08]{../input/figure_city.jpg}
+	\end{figure}
   
 \end{frame}
+
+\begin{frame}{Regression Table With Clustered SEs}
+  \centering
+  \textbf{Table 1: Regression Results with Clustered SEs}
+  \vspace{0.3cm}
+  \resizebox{\textwidth}{!}{\input{../input/table_reg.tex}}
+\end{frame}
+
 
 \section{Conclusion}
 
