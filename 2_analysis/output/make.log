@@ -1,6 +1,6 @@
 
-Script analyze_data.r in Rscript started at 2025-07-14 13:17:25
-Script analyze_data.r finished successfully at 2025-07-14 13:17:29
+Script analyze_data.r in Rscript started at 2025-07-14 15:18:05
+Script analyze_data.r finished successfully at 2025-07-14 15:18:09
 Output: ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
 ✔ forcats   1.0.0     ✔ stringr   1.5.1
@@ -27,7 +27,7 @@ The following objects are masked from ‘package:tidyr’:
 
 
 % Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
-% Date and time: Mon, Jul 14, 2025 - 01:17:28 PM
+% Date and time: Mon, Jul 14, 2025 - 03:18:08 PM
 % Requires LaTeX packages: dcolumn 
 \begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 \\[-1.8ex]\hline 
@@ -61,4 +61,4 @@ Warning message:
 In chol.default(mat, pivot = TRUE, tol = tol) :
   the matrix is either rank-deficient or not positive definite
 
-make.sh finished at 2025-07-14 13:17:29
+make.sh finished at 2025-07-14 15:18:09

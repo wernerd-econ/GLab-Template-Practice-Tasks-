@@ -1,6 +1,6 @@
 
-Script my_project.tex in latexmk -pdf -bibtex started at 2025-07-14 13:17:31
-Script my_project.tex finished successfully at 2025-07-14 13:17:33
+Script my_project.tex in latexmk -pdf -bibtex started at 2025-07-14 15:18:11
+Script my_project.tex finished successfully at 2025-07-14 15:18:13
 Output: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
 Rule 'pdflatex': The following rules & subrules became out-of-date:
       'pdflatex'
@@ -202,7 +202,7 @@ b></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb
 8a.pfb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/urw/times
 /utmr8a.pfb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on my_project.pdf (7 pages, 911673 bytes).
+Output written on my_project.pdf (7 pages, 412977 bytes).
 Transcript written on my_project.log.
 Latexmk: Non-existent bbl file 'my_project.bbl'
  No file my_project.bbl.
@@ -434,7 +434,7 @@ b></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb
 8a.pfb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/urw/times
 /utmr8a.pfb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on my_project.pdf (8 pages, 915993 bytes).
+Output written on my_project.pdf (8 pages, 417291 bytes).
 Transcript written on my_project.log.
 Latexmk: Found input bbl file 'my_project.bbl'
 Latexmk: References changed.
@@ -640,7 +640,7 @@ are/user/open/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 .pfb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on my_project.pdf (8 pages, 915400 bytes).
+Output written on my_project.pdf (8 pages, 416701 bytes).
 Transcript written on my_project.log.
 Latexmk: Found input bbl file 'my_project.bbl'
 Latexmk: Log file says output to 'my_project.pdf'
@@ -651,4 +651,4 @@ Latexmk: All targets () are up-to-date
 The following files were created in my_project.tex:
 my_project.pdf 
 
-make.sh finished at 2025-07-14 13:17:33
+make.sh finished at 2025-07-14 15:18:13
