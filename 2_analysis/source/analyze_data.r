@@ -50,10 +50,11 @@ city_figure <- function(data) {
 }
 
 hwy_figure <- function(data) {
-  p <- ggplot(data, aes(x = displ, y = hwy, color = year)) +
+  data <- data %>% mutate(log_hwy = log(hwy))
+  p <- ggplot(data, aes(x = displ, y = log_hwy, color = year)) +
     geom_point() +
     xlab("Engine displacement (L)") +
-    ylab("Highway fuel economy (mpg)")
+    ylab("Log of highway fuel economy (mpg)")
   ggsave("../output/figure_hwy.jpg", plot = p)
 }
 

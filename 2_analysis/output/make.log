@@ -1,12 +1,12 @@
 
-Script analyze_data.r in Rscript started at 2025-07-10 13:30:36
-Script analyze_data.r finished successfully at 2025-07-10 13:30:37
+Script analyze_data.r in Rscript started at 2025-07-14 15:18:05
+Script analyze_data.r finished successfully at 2025-07-14 15:18:09
 Output: ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
 ✔ forcats   1.0.0     ✔ stringr   1.5.1
 ✔ ggplot2   3.5.2     ✔ tibble    3.3.0
 ✔ lubridate 1.9.4     ✔ tidyr     1.3.1
-✔ purrr     1.0.4     
+✔ purrr     1.1.0     
 ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
@@ -27,14 +27,38 @@ The following objects are masked from ‘package:tidyr’:
 
 
 % Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
-% Date and time: Thu, Jul 10, 2025 - 13:30:36
+% Date and time: Mon, Jul 14, 2025 - 03:18:08 PM
 % Requires LaTeX packages: dcolumn 
-egin{tabular}{@{xtracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
-\[-1.8ex]\hline 
-\hline \[-1.8ex] 
- & \multicolumn{3}{c}{	extit{Dependent variable:}} \ 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{3}{c}{Engine displacement (L)} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)}\\ 
+\hline \\[-1.8ex] 
+ City fuel economy (mpg) & -0.242^{***} &  & -0.233^{*} \\ 
+  & (0.022) &  & (0.125) \\ 
+  & & & \\ 
+ Highway fuel economy (mpg) &  & -0.166^{***} & -0.007 \\ 
+  &  & (0.005) & (0.077) \\ 
+  & & & \\ 
+ Constant & 7.558^{***} & 7.368^{***} & 7.565^{***} \\ 
+  & (0.522) & (0.307) & (0.450) \\ 
+  & & & \\ 
+\hline \\[-1.8ex] 
+Observations & \multicolumn{1}{c}{234} & \multicolumn{1}{c}{234} & \multicolumn{1}{c}{234} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.638} & \multicolumn{1}{c}{0.587} & \multicolumn{1}{c}{0.638} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.636} & \multicolumn{1}{c}{0.585} & \multicolumn{1}{c}{0.635} \\ 
+Residual Std. Error & \multicolumn{1}{c}{0.779 (df = 232)} & \multicolumn{1}{c}{0.832 (df = 232)} & \multicolumn{1}{c}{0.781 (df = 231)} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Warning message:
+In chol.default(mat, pivot = TRUE, tol = tol) :
+  the matrix is either rank-deficient or not positive definite
 
-The following files were created in analyze_data.r:
-figure_hwy.jpg 
-
-make.sh finished at 2025-07-10 13:30:37
+make.sh finished at 2025-07-14 15:18:09
